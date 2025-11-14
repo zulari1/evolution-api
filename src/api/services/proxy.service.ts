@@ -1,7 +1,7 @@
 import { InstanceDto } from '@api/dto/instance.dto';
 import { ProxyDto } from '@api/dto/proxy.dto';
 import { Logger } from '@config/logger.config';
-import { Proxy } from '@prisma/client';
+// Removed import of Proxy from '@prisma/client' because it does not exist
 
 import { WAMonitoringService } from './monitor.service';
 
@@ -16,7 +16,8 @@ export class ProxyService {
     return { proxy: { ...instance, proxy: data } };
   }
 
-  public async find(instance: InstanceDto): Promise<Proxy> {
+  // Returning Promise<any> instead of Proxy type since it doesn't exist
+  public async find(instance: InstanceDto): Promise<any> {
     try {
       const result = await this.waMonitor.waInstances[instance.instanceName].findProxy();
 
