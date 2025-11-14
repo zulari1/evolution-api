@@ -27,20 +27,8 @@
     "url": "git+https://github.com/EvolutionAPI/evolution-api.git"
   },
   "keywords": [
-    "chat",
-    "communication",
-    "message",
-    "send message",
-    "whatsapp",
-    "js-whatsapp",
-    "whatsapp-api",
-    "whatsapp-web",
-    "whatsapp",
-    "whatsapp-chat",
-    "whatsapp-group",
-    "automation",
-    "multi-device",
-    "bot"
+    "chat", "communication", "message", "send message", "whatsapp", "js-whatsapp", "whatsapp-api", 
+    "whatsapp-web", "whatsapp", "whatsapp-chat", "whatsapp-group", "automation", "multi-device", "bot"
   ],
   "author": {
     "name": "Davidson Gomes",
@@ -71,7 +59,7 @@
     "@figuro/chatwoot-sdk": "^1.1.16",
     "@hapi/boom": "^10.0.1",
     "@paralleldrive/cuid2": "^2.2.2",
-    "@prisma/client": "^6.16.2",
+    "@prisma/client": "4.13.0",
     "@sentry/node": "^10.12.0",
     "@types/uuid": "^10.0.0",
     "amqplib": "^0.10.5",
@@ -109,7 +97,7 @@
     "openai": "^4.77.3",
     "pg": "^8.13.1",
     "pino": "^9.10.0",
-    "prisma": "^6.1.0",
+    "prisma": "4.13.0",
     "pusher": "^5.2.0",
     "qrcode": "^1.5.4",
     "qrcode-terminal": "^0.12.0",
